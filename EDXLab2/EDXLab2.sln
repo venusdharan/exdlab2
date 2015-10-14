@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDXLab2.Windows", "EDXLab2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDXLab2.WindowsPhone", "EDXLab2\EDXLab2.WindowsPhone\EDXLab2.WindowsPhone.csproj", "{E1974E91-9E2E-4AA2-994A-D759EF7823E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantManager.Models", "RestaurantManager.Models\RestaurantManager.Models.csproj", "{4A1BD4DF-7B69-4047-BE31-9618DD89B216}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		EDXLab2\EDXLab2.Shared\EDXLab2.Shared.projitems*{e1974e91-9e2e-4aa2-994a-d759ef7823e0}*SharedItemsImports = 4
@@ -76,6 +78,22 @@ Global
 		{E1974E91-9E2E-4AA2-994A-D759EF7823E0}.Release|x86.ActiveCfg = Release|x86
 		{E1974E91-9E2E-4AA2-994A-D759EF7823E0}.Release|x86.Build.0 = Release|x86
 		{E1974E91-9E2E-4AA2-994A-D759EF7823E0}.Release|x86.Deploy.0 = Release|x86
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|ARM.Build.0 = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|x64.Build.0 = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Debug|x86.Build.0 = Debug|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|ARM.ActiveCfg = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|ARM.Build.0 = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|x64.ActiveCfg = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|x64.Build.0 = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|x86.ActiveCfg = Release|Any CPU
+		{4A1BD4DF-7B69-4047-BE31-9618DD89B216}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
