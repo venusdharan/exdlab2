@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="EDXLab2.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EDXLab2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" Margin="512,196,485,0" TextWrapping="Wrap" Text="Restaurant Manager" VerticalAlignment="Top" FontSize="40" Height="49"/>
+        <TextBlock x:Name="textBlock_Copy" Margin="530,274,519,0" TextWrapping="Wrap" Text="Internal Test Version" VerticalAlignment="Top" Height="49"/>
+        <Button x:Name="button" Content="Go to Orders View" HorizontalAlignment="Left" Margin="194,0,0,60" VerticalAlignment="Bottom" Width="314" Height="88" Click="button_Click"/>
+        <Button x:Name="button_Copy" Content="Submit Orders" HorizontalAlignment="Right" Height="88" Margin="0,0,166,60" VerticalAlignment="Bottom" Width="266" Click="button_Copy_Click"/>
+
+    </Grid>
+</Page>

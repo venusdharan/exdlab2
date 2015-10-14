@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="EDXLab2.ExpeditePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:EDXLab2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Button x:Name="button" Content="Clear all orders" HorizontalAlignment="Stretch" Margin="506,0,508,42" VerticalAlignment="Bottom" FontSize="30" Height="98" Click="button_Click"/>
+        <AppBar Margin="0,0,0,682" Opened="AppBar_Opened">
+            <AppBarButton Click="appBarButton_Click" x:Name="appBarButton" Icon="Home" Label="Home"/>
+        </AppBar>
+        <GridView x:Name="gridView" Margin="10,112,10,174"/>
+
+    </Grid>
+</Page>
